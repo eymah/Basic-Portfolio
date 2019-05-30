@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  body {
+
+  }
+
+  img {
+      width: 20%;
+      height: 20%;
+  }
