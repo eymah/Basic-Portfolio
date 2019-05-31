@@ -1,17 +1,29 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+  body{
+    float: left;
+    /* background-color: #ffffff; */
+    /* width: 960px; */
+    /* border-color: #ffffff; */
+    /* margin-left: px; */
+    background-color: lightgrey;
   }
 
   header{
     padding: 20px;
-    margin-bottom: 15px;
-    height: 80px;
+    margin-bottom: 0px;
+    height: 48px; 
     text-align: center;
     border-color: #ffffff;
     box-sizing: content-box;
-    width: 960px;
-    margin-left: 200px
+    width: 100%;
+    background-color: #ffffff;
   }
 
   .top {
@@ -19,10 +31,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     padding: 20px;
-    margin-bottom: 20px;
     margin-left: 100px;
-    margin-top: -30px;
-    width: 250px;
+    width: 20%;
     text-align: center;
     background-color: teal;
     color: #ffffff;
@@ -32,37 +42,31 @@
  button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    width: 10%;
     border: none;
     background-color: #ffffff;
     color: #777777;
     
   }
 
- button.hover{
-     background-color: blue;
- }
+  button.hover{
+    background-color: teal;
+}
+
+  .main {
+    background: #ffffff;
+    height: 500px;
+    width: 75%;
+    margin-left: 120px;
+    vh: 80%;
+  } 
 
   img {
     float: left;
-    padding: 20px;
-    margin-left: 100px;
+    margin-left: 20px;
+    margin-top: 80px;
     width: 15%;
-    height: 15%;
-  }
-
-   body{
-    float: left;
-    background-color: #ffffff;
-    width: 960px;
-    border-color: #ffffff;
-    margin-left: px;
-  }
-
-  .aboutme {
-    float: left;
-    color: teal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+   
   }
 
   .Hello {
@@ -72,13 +76,64 @@
     font-size: 18px;
     color: #777777;
     border-color: grey;
+  } 
+
+
+  .aboutme {
+    text-align: left;
+    float: left;
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: -120px;
+    margin-top: 30px;
+    border-bottom: lightgrey;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    width: 960px;
   }
 
   footer {
+      float: bottom;
       text-align: center;
-      padding:20px;
-      margin-left: 200px;
-      float: left;
-      background-color: teal;
+      padding: 20px;
+      background-color: grey;
+      margin-top: 60px;
+      border-top: solid teal 5px;
+
 
   }
+
+
+  [type=text], select, textarea {
+    width: 100%;
+    
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: teal;
+    color: lightgrey;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: teal;
+  }
+  
+  .container {
+    float: right;
+    margin-right: 200px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 50%;
+  }
+
